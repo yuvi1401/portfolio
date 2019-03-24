@@ -1,0 +1,110 @@
+body {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="28" height="49" viewBox="0 0 28 49"%3E%3Cg fill-rule="evenodd"%3E%3Cg id="hexagons" fill="%239C92AC" fill-opacity="0.4" fill-rule="nonzero"%3E%3Cpath d="M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); /*background pattern*/
+  font-family: 'Quicksand';
+}
+h1 h2 h3 h4 h5 {
+  font-family: 'Roboto Condensed';
+}
+/*Header CSS*/
+.title-row {
+  width: 100%;
+}
+
+.navbar .container-fluid > .navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav > li {
+  float: left;
+  margin-right: 5px;
+}
+.title {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-style: italic;
+  position: relative;
+  float: left;
+  left: 2em;
+}
+/*End Header CSS*/
+/*General rules*/
+.round-edges {
+  border-radius: 90px;
+}
+
+.top-buffer {
+  margin-top: 10px;
+}
+.vertical-buffer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*End General Rules*/
+
+/*Main Content CSS*/
+.portrait {
+  border-radius: 75%;
+}
+
+.profile-text {
+  font-size: 1.15em;
+}
+
+.totop {
+  width: 25px;
+  height: 25px;
+}
+
+.topbtn {
+  position: relative;
+  border-radius: 45px;
+  left: 5px;
+}
+
+.project-thumbnail {
+  border: 2px solid black;
+  margin: 5px;
+}
+/*End Main Content CSS*/
+
+/*Footer CSS*/
+.footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+a.fa.social {
+  float: right;
+  display: block;
+  margin: 10px;
+}
+
+ul.social {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li .fa {
+  text-decoration: none;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2px;
+  width: 15px;
+}
+
+#copyright {
+  font-size: 1em;
+  font-family: 'Roboto Condensed';
+}
+
+.fa:hover {
+  color: white;
+}
+/*End Footer CSS*/
