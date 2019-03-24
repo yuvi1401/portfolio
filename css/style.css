@@ -8,6 +8,7 @@ h1 h2 h3 h4 h5 {
 /*Header CSS*/
 .title-row {
   width: 100%;
+  max-height: 100%;
 }
 
 .navbar .container-fluid > .navbar-header {
